@@ -1,4 +1,4 @@
-# flutter_app
+# To Do App
 
 A To-Do Flutter application to manage your TaskList using Sqlite database.
 
