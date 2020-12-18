@@ -117,7 +117,6 @@ class _PlayerState extends State<AddTask> {
         }
       },
       maxLines: type,
-      textAlign: TextAlign.center,
       decoration: new InputDecoration(
           border: new OutlineInputBorder(
             borderRadius: BorderRadius.all(
@@ -126,7 +125,6 @@ class _PlayerState extends State<AddTask> {
           ),
           filled: true,
           hintStyle: new TextStyle(color: Colors.grey[800]),
-          hintText: name,
           labelText: name,
           fillColor: Color.fromRGBO(245, 245, 245, 100)),
     );
